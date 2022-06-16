@@ -6,7 +6,7 @@
  * objeto original, pero con los valores de esas propiedades reemplazadas con versiones inmutables de
  * ellos mismos.
  */
-const immutable = (obj) => {
+export const immutable = (obj) => {
   /**
    * Toma un objeto y devuelve un nuevo objeto con todas las propiedades del objeto original, pero
    * con los valores de esas propiedades reemplazadas con versiones inmutables de sí mismas
